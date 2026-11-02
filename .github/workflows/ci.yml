@@ -1,0 +1,88 @@
+name: CodeShelf Continuous Integration
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: "Linux (Ubuntu 24.04 x86_64 GCC)"
+            os: ubuntu-24.04
+            preset: linux-release
+            test_cmd: |
+              export QT_QPA_PLATFORM=offscreen
+              ./build/linux-release/tests/codeshelf_tests
+
+          - name: "Windows (MSYS2 UCRT64 GCC)"
+            os: windows-latest
+            preset: windows-release
+            test_cmd: |
+              $env:QT_QPA_PLATFORM = "offscreen"
+              $env:PATH = "C:\msys64\ucrt64\bin;$env:PATH"
+              .\build\windows-release\tests\codeshelf_tests.exe
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Linux Dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            cmake \
+            ninja-build \
+            qt6-base-dev \
+            qt6-base-dev-tools \
+            libsqlite3-dev
+
+      - name: Setup MSYS2 on Windows
+        if: runner.os == 'Windows'
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            mingw-w64-ucrt-x86_64-gcc
+            mingw-w64-ucrt-x86_64-cmake
+            mingw-w64-ucrt-x86_64-ninja
+            mingw-w64-ucrt-x86_64-qt6-base
+            mingw-w64-ucrt-x86_64-sqlite3
+
+      - name: Configure CMake
+        shell: bash
+        run: |
+          if [ "${{ runner.os }}" = "Windows" ]; then
+            export PATH="/c/msys64/ucrt64/bin:$PATH"
+          fi
+          cmake --preset ${{ matrix.preset }}
+
+      - name: Build CodeShelf
+        shell: bash
+        run: |
+          if [ "${{ runner.os }}" = "Windows" ]; then
+            export PATH="/c/msys64/ucrt64/bin:$PATH"
+          fi
+          cmake --build --preset ${{ matrix.preset }}
+
+      - name: Execute Automated Test Suite
+        shell: bash
+        run: |
+          if [ "${{ runner.os }}" = "Windows" ]; then
+            export PATH="/c/msys64/ucrt64/bin:$PATH"
+            export QT_QPA_PLATFORM=offscreen
+            ./build/windows-release/tests/codeshelf_tests.exe
+          else
+            export QT_QPA_PLATFORM=offscreen
+            ./build/linux-release/tests/codeshelf_tests
+          fi

@@ -1,0 +1,1927 @@
+{
+  "format": "codeshelf-backup",
+  "schema_version": 1,
+  "exported_at": "2026-11-02T05:06:42.892+00:00",
+  "application_version": "0.1.0",
+  "collections": [
+    {
+      "id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "name": "Algorithms & Data Structures",
+      "description": "Standard algorithms, sorting, graph traversal, and trees",
+      "sort_order": 0
+    },
+    {
+      "id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "name": "System Architecture",
+      "description": "Low-level, OS abstractions, networking, and memory management",
+      "sort_order": 1
+    },
+    {
+      "id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "name": "Web Services & APIs",
+      "description": "REST endpoints, serialization, HTTP clients, and schemas",
+      "sort_order": 2
+    },
+    {
+      "id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "name": "Database Queries & Migrations",
+      "description": "SQL queries, schema migrations, and indexing patterns",
+      "sort_order": 3
+    },
+    {
+      "id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "name": "DevOps & Tooling",
+      "description": "Shell scripts, CI/CD templates, and build configuration",
+      "sort_order": 4
+    }
+  ],
+  "tags": [
+    "algorithms",
+    "async",
+    "concurrency",
+    "database",
+    "debugging",
+    "file-io",
+    "math",
+    "networking",
+    "parsing",
+    "patterns",
+    "performance",
+    "security",
+    "testing",
+    "ui",
+    "utilities"
+  ],
+  "templates": [
+    {
+      "id": "9ef4b66e-1f94-4dd8-aa98-c1132e88ba69",
+      "name": "Standard C++ Class Template",
+      "description": "Boilerplate for a C++ class with Rule of Five",
+      "body": "#pragma once\n\nclass {{ClassName}} {\npublic:\n    {{ClassName}}() = default;\n    ~{{ClassName}}() = default;\n};",
+      "language": "C++"
+    },
+    {
+      "id": "7c04e6bd-4267-4dde-b35d-27310dde49a7",
+      "name": "Python Async Function Template",
+      "description": "Async function with error handling",
+      "body": "async def {{function_name}}(*args, **kwargs):\n    try:\n        # implementation\n        pass\n    except Exception as exc:\n        raise",
+      "language": "Python"
+    }
+  ],
+  "snippets": [
+    {
+      "id": "e4b4b7a0-3c8a-47ad-a28a-a6e54e8b2c16",
+      "title": "Snippet #00001: JSON Pseudocode Example",
+      "body": "// Snippet #00001: JSON Pseudocode Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 1",
+      "description": "Deterministic technical snippet fixture #1 illustrating pseudocode design for JSON.",
+      "language": "JSON",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T10:15:00.000+00:00",
+      "updated_at": "2026-01-01T10:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "parsing",
+        "security"
+      ]
+    },
+    {
+      "id": "76449179-33b5-4d91-a764-22b94d9dfcaf",
+      "title": "Snippet #00002: Go Command Example",
+      "body": "// Snippet #00002: Go Command Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 2",
+      "description": "Deterministic technical snippet fixture #2 illustrating command design for Go.",
+      "language": "Go",
+      "snippet_type": "command",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T10:30:00.000+00:00",
+      "updated_at": "2026-01-01T10:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "id": "018a88d0-bb1b-4380-8d36-342fcb1202d4",
+      "title": "Snippet #00003: TypeScript Note Example",
+      "body": "// Snippet #00003: TypeScript Note Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 3",
+      "description": "Deterministic technical snippet fixture #3 illustrating note design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "note",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T10:45:00.000+00:00",
+      "updated_at": "2026-01-01T10:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "utilities"
+      ]
+    },
+    {
+      "id": "39d851da-82aa-47a5-a67b-97a3d9a32105",
+      "title": "Snippet #00004: Markdown Code Example",
+      "body": "// Snippet #00004: Markdown Code Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 4",
+      "description": "Deterministic technical snippet fixture #4 illustrating code design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "code",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T11:00:00.000+00:00",
+      "updated_at": "2026-01-01T11:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "95df7a51-a096-4566-befd-441adc0a0e1f",
+      "title": "Snippet #00005: Go Sql Example",
+      "body": "// Snippet #00005: Go Sql Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 5",
+      "description": "Deterministic technical snippet fixture #5 illustrating sql design for Go.",
+      "language": "Go",
+      "snippet_type": "sql",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T11:15:00.000+00:00",
+      "updated_at": "2026-01-01T11:20:00.000+00:00",
+      "source_url": "https://example.com/docs/go/item-5",
+      "tags": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "f3556d3b-7042-464f-bd93-ef9691e516c4",
+      "title": "Snippet #00006: Python Config Example",
+      "body": "// Snippet #00006: Python Config Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 6",
+      "description": "Deterministic technical snippet fixture #6 illustrating config design for Python.",
+      "language": "Python",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T11:30:00.000+00:00",
+      "updated_at": "2026-01-01T11:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "performance",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "069315a0-e930-45fd-a1d8-f1aa7df44f04",
+      "title": "Snippet #00007: Shell Config Example",
+      "body": "// Snippet #00007: Shell Config Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 7",
+      "description": "Deterministic technical snippet fixture #7 illustrating config design for Shell.",
+      "language": "Shell",
+      "snippet_type": "config",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T11:45:00.000+00:00",
+      "updated_at": "2026-01-01T11:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns",
+        "file-io",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "e91f135c-5fda-407a-8352-4d2bb4bc3cf3",
+      "title": "Snippet #00008: TypeScript Pseudocode Example",
+      "body": "// Snippet #00008: TypeScript Pseudocode Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 8",
+      "description": "Deterministic technical snippet fixture #8 illustrating pseudocode design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "pseudocode",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T12:00:00.000+00:00",
+      "updated_at": "2026-01-01T12:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "patterns",
+        "performance"
+      ]
+    },
+    {
+      "id": "13f94bc9-a93f-4998-8720-74a699d62ae2",
+      "title": "Snippet #00009: JavaScript Sql Example",
+      "body": "// Snippet #00009: JavaScript Sql Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 9",
+      "description": "Deterministic technical snippet fixture #9 illustrating sql design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "sql",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T12:15:00.000+00:00",
+      "updated_at": "2026-01-01T12:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "performance",
+        "concurrency",
+        "ui"
+      ]
+    },
+    {
+      "id": "2c351452-9c42-473a-a3e4-0f26e49212ab",
+      "title": "Snippet #00010: C++ Note Example",
+      "body": "// Snippet #00010: C++ Note Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 10",
+      "description": "Deterministic technical snippet fixture #10 illustrating note design for C++.",
+      "language": "C++",
+      "snippet_type": "note",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T12:30:00.000+00:00",
+      "updated_at": "2026-01-01T12:35:00.000+00:00",
+      "source_url": "https://example.com/docs/c++/item-10",
+      "tags": [
+        "networking",
+        "patterns",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "1cbd2d34-1fd1-4f2f-836d-947b6637d81c",
+      "title": "Snippet #00011: JSON Note Example",
+      "body": "// Snippet #00011: JSON Note Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 11",
+      "description": "Deterministic technical snippet fixture #11 illustrating note design for JSON.",
+      "language": "JSON",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T12:45:00.000+00:00",
+      "updated_at": "2026-01-01T12:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "database",
+        "debugging",
+        "utilities"
+      ]
+    },
+    {
+      "id": "0495d5d9-87f8-4c04-b627-c42295bb4a27",
+      "title": "Snippet #00012: C++ Pseudocode Example",
+      "body": "// Snippet #00012: C++ Pseudocode Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 12",
+      "description": "Deterministic technical snippet fixture #12 illustrating pseudocode design for C++.",
+      "language": "C++",
+      "snippet_type": "pseudocode",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T13:00:00.000+00:00",
+      "updated_at": "2026-01-01T13:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "utilities",
+        "security"
+      ]
+    },
+    {
+      "id": "65062925-a408-4207-8f28-636ca1c290bf",
+      "title": "Snippet #00013: Rust Note Example",
+      "body": "// Snippet #00013: Rust Note Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 13",
+      "description": "Deterministic technical snippet fixture #13 illustrating note design for Rust.",
+      "language": "Rust",
+      "snippet_type": "note",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T13:15:00.000+00:00",
+      "updated_at": "2026-01-01T13:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "ui",
+        "database",
+        "patterns",
+        "math"
+      ]
+    },
+    {
+      "id": "12516f3f-f8bc-499c-b3dc-0bc132370249",
+      "title": "Snippet #00014: Rust Note Example",
+      "body": "// Snippet #00014: Rust Note Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 14",
+      "description": "Deterministic technical snippet fixture #14 illustrating note design for Rust.",
+      "language": "Rust",
+      "snippet_type": "note",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T13:30:00.000+00:00",
+      "updated_at": "2026-01-01T13:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "utilities"
+      ]
+    },
+    {
+      "id": "09a998e9-1185-40e6-b8b1-7a1b4b27ebdf",
+      "title": "Snippet #00015: Markdown Config Example",
+      "body": "// Snippet #00015: Markdown Config Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 15",
+      "description": "Deterministic technical snippet fixture #15 illustrating config design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T13:45:00.000+00:00",
+      "updated_at": "2026-01-01T13:50:00.000+00:00",
+      "source_url": "https://example.com/docs/markdown/item-15",
+      "tags": [
+        "security",
+        "testing",
+        "parsing",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "efed7c8e-2f3b-4e93-86b6-8ad2c625a76a",
+      "title": "Snippet #00016: Shell Sql Example",
+      "body": "// Snippet #00016: Shell Sql Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 16",
+      "description": "Deterministic technical snippet fixture #16 illustrating sql design for Shell.",
+      "language": "Shell",
+      "snippet_type": "sql",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T14:00:00.000+00:00",
+      "updated_at": "2026-01-01T14:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "483e030b-4551-40ae-bd87-bb4536246e50",
+      "title": "Snippet #00017: JSON Code Example",
+      "body": "// Snippet #00017: JSON Code Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 17",
+      "description": "Deterministic technical snippet fixture #17 illustrating code design for JSON.",
+      "language": "JSON",
+      "snippet_type": "code",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T14:15:00.000+00:00",
+      "updated_at": "2026-01-01T14:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "parsing"
+      ]
+    },
+    {
+      "id": "375829e8-e153-4ed3-87d0-054089afb35c",
+      "title": "Snippet #00018: Markdown Sql Example",
+      "body": "// Snippet #00018: Markdown Sql Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 18",
+      "description": "Deterministic technical snippet fixture #18 illustrating sql design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "sql",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T14:30:00.000+00:00",
+      "updated_at": "2026-01-01T14:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "ui",
+        "database"
+      ]
+    },
+    {
+      "id": "52a5bd2b-7070-4dae-909a-4c4f2aa66971",
+      "title": "Snippet #00019: JSON Config Example",
+      "body": "// Snippet #00019: JSON Config Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 19",
+      "description": "Deterministic technical snippet fixture #19 illustrating config design for JSON.",
+      "language": "JSON",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T14:45:00.000+00:00",
+      "updated_at": "2026-01-01T14:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "debugging",
+        "ui",
+        "database"
+      ]
+    },
+    {
+      "id": "0fea067b-04aa-4e7b-b818-76e0608f4ce3",
+      "title": "Snippet #00020: Shell Note Example",
+      "body": "// Snippet #00020: Shell Note Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 20",
+      "description": "Deterministic technical snippet fixture #20 illustrating note design for Shell.",
+      "language": "Shell",
+      "snippet_type": "note",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T15:00:00.000+00:00",
+      "updated_at": "2026-01-01T15:05:00.000+00:00",
+      "source_url": "https://example.com/docs/shell/item-20",
+      "tags": [
+        "debugging",
+        "security",
+        "utilities"
+      ]
+    },
+    {
+      "id": "7b4049dc-2679-46d9-88da-dfe01fc3e9f5",
+      "title": "Snippet #00021: TypeScript Note Example",
+      "body": "// Snippet #00021: TypeScript Note Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 21",
+      "description": "Deterministic technical snippet fixture #21 illustrating note design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "note",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T15:15:00.000+00:00",
+      "updated_at": "2026-01-01T15:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "file-io",
+        "database",
+        "parsing"
+      ]
+    },
+    {
+      "id": "c7ca445c-0138-40a8-abf0-49db3c1210c2",
+      "title": "Snippet #00022: TypeScript Config Example",
+      "body": "// Snippet #00022: TypeScript Config Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 22",
+      "description": "Deterministic technical snippet fixture #22 illustrating config design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T15:30:00.000+00:00",
+      "updated_at": "2026-01-01T15:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "async"
+      ]
+    },
+    {
+      "id": "66b2ff7b-2931-40d7-9795-65c54527ebf3",
+      "title": "Snippet #00023: JavaScript Pseudocode Example",
+      "body": "// Snippet #00023: JavaScript Pseudocode Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 23",
+      "description": "Deterministic technical snippet fixture #23 illustrating pseudocode design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": true,
+      "created_at": "2026-01-01T15:45:00.000+00:00",
+      "updated_at": "2026-01-01T15:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "utilities",
+        "concurrency",
+        "ui"
+      ]
+    },
+    {
+      "id": "35b46f8c-16df-4a98-b8b0-c791ab79e68d",
+      "title": "Snippet #00024: TypeScript Note Example",
+      "body": "// Snippet #00024: TypeScript Note Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 24",
+      "description": "Deterministic technical snippet fixture #24 illustrating note design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T16:00:00.000+00:00",
+      "updated_at": "2026-01-01T16:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "file-io",
+        "testing"
+      ]
+    },
+    {
+      "id": "ddd603c1-3229-4939-81ab-d82e658f7e0e",
+      "title": "Snippet #00025: TypeScript Config Example",
+      "body": "// Snippet #00025: TypeScript Config Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 25",
+      "description": "Deterministic technical snippet fixture #25 illustrating config design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "config",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T16:15:00.000+00:00",
+      "updated_at": "2026-01-01T16:20:00.000+00:00",
+      "source_url": "https://example.com/docs/typescript/item-25",
+      "tags": [
+        "security",
+        "debugging",
+        "performance",
+        "database"
+      ]
+    },
+    {
+      "id": "692064d5-4ae3-4c93-8ea0-24a3a555c716",
+      "title": "Snippet #00026: JavaScript Config Example",
+      "body": "// Snippet #00026: JavaScript Config Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 26",
+      "description": "Deterministic technical snippet fixture #26 illustrating config design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "config",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T16:30:00.000+00:00",
+      "updated_at": "2026-01-01T16:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "79f9f384-6edb-4043-b175-f19719eba398",
+      "title": "Snippet #00027: Markdown Config Example",
+      "body": "// Snippet #00027: Markdown Config Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 27",
+      "description": "Deterministic technical snippet fixture #27 illustrating config design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "config",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T16:45:00.000+00:00",
+      "updated_at": "2026-01-01T16:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency",
+        "async"
+      ]
+    },
+    {
+      "id": "1a625daa-fada-452d-80e7-93090fe44c83",
+      "title": "Snippet #00028: Go Config Example",
+      "body": "// Snippet #00028: Go Config Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 28",
+      "description": "Deterministic technical snippet fixture #28 illustrating config design for Go.",
+      "language": "Go",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T17:00:00.000+00:00",
+      "updated_at": "2026-01-01T17:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "utilities"
+      ]
+    },
+    {
+      "id": "124afa44-fee6-41d0-82c6-65da1defe9fa",
+      "title": "Snippet #00029: Markdown Config Example",
+      "body": "// Snippet #00029: Markdown Config Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 29",
+      "description": "Deterministic technical snippet fixture #29 illustrating config design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "config",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T17:15:00.000+00:00",
+      "updated_at": "2026-01-01T17:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "id": "7f0147d8-e5c0-41fd-881f-20f89a853dbd",
+      "title": "Snippet #00030: Shell Pseudocode Example",
+      "body": "// Snippet #00030: Shell Pseudocode Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 30",
+      "description": "Deterministic technical snippet fixture #30 illustrating pseudocode design for Shell.",
+      "language": "Shell",
+      "snippet_type": "pseudocode",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T17:30:00.000+00:00",
+      "updated_at": "2026-01-01T17:35:00.000+00:00",
+      "source_url": "https://example.com/docs/shell/item-30",
+      "tags": [
+        "performance",
+        "utilities",
+        "file-io"
+      ]
+    },
+    {
+      "id": "9bebd3e5-bb9a-496b-a8bc-c94346a242f6",
+      "title": "Snippet #00031: TypeScript Command Example",
+      "body": "// Snippet #00031: TypeScript Command Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 31",
+      "description": "Deterministic technical snippet fixture #31 illustrating command design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "command",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T17:45:00.000+00:00",
+      "updated_at": "2026-01-01T17:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "database",
+        "file-io",
+        "ui",
+        "math"
+      ]
+    },
+    {
+      "id": "9699e053-69a7-4039-80d7-a3151e6d9056",
+      "title": "Snippet #00032: Markdown Code Example",
+      "body": "// Snippet #00032: Markdown Code Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 32",
+      "description": "Deterministic technical snippet fixture #32 illustrating code design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "code",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T18:00:00.000+00:00",
+      "updated_at": "2026-01-01T18:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "patterns",
+        "security"
+      ]
+    },
+    {
+      "id": "d6c5177d-b0cf-455b-bf24-6096ec205350",
+      "title": "Snippet #00033: Rust Config Example",
+      "body": "// Snippet #00033: Rust Config Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 33",
+      "description": "Deterministic technical snippet fixture #33 illustrating config design for Rust.",
+      "language": "Rust",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T18:15:00.000+00:00",
+      "updated_at": "2026-01-01T18:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns",
+        "file-io",
+        "utilities",
+        "database"
+      ]
+    },
+    {
+      "id": "0df4421e-0261-4424-8bac-cf98be020d52",
+      "title": "Snippet #00034: Shell Command Example",
+      "body": "// Snippet #00034: Shell Command Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 34",
+      "description": "Deterministic technical snippet fixture #34 illustrating command design for Shell.",
+      "language": "Shell",
+      "snippet_type": "command",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T18:30:00.000+00:00",
+      "updated_at": "2026-01-01T18:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "security",
+        "networking",
+        "async",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "f4f55f5a-d64f-46b9-afdd-9ca2ddf58c21",
+      "title": "Snippet #00035: Markdown Command Example",
+      "body": "// Snippet #00035: Markdown Command Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 35",
+      "description": "Deterministic technical snippet fixture #35 illustrating command design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "command",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T18:45:00.000+00:00",
+      "updated_at": "2026-01-01T18:50:00.000+00:00",
+      "source_url": "https://example.com/docs/markdown/item-35",
+      "tags": [
+        "testing",
+        "async",
+        "patterns"
+      ]
+    },
+    {
+      "id": "384dad13-b489-458c-bf84-bb0418c51b60",
+      "title": "Snippet #00036: Shell Sql Example",
+      "body": "// Snippet #00036: Shell Sql Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 36",
+      "description": "Deterministic technical snippet fixture #36 illustrating sql design for Shell.",
+      "language": "Shell",
+      "snippet_type": "sql",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T19:00:00.000+00:00",
+      "updated_at": "2026-01-01T19:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "file-io",
+        "performance",
+        "concurrency",
+        "testing"
+      ]
+    },
+    {
+      "id": "601f5526-da33-4703-af71-4c69e2070e78",
+      "title": "Snippet #00037: Markdown Note Example",
+      "body": "// Snippet #00037: Markdown Note Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 37",
+      "description": "Deterministic technical snippet fixture #37 illustrating note design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "note",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T19:15:00.000+00:00",
+      "updated_at": "2026-01-01T19:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "73ee7c51-3047-4ae1-8136-519828128a5d",
+      "title": "Snippet #00038: C++ Config Example",
+      "body": "// Snippet #00038: C++ Config Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 38",
+      "description": "Deterministic technical snippet fixture #38 illustrating config design for C++.",
+      "language": "C++",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T19:30:00.000+00:00",
+      "updated_at": "2026-01-01T19:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "file-io",
+        "debugging",
+        "utilities"
+      ]
+    },
+    {
+      "id": "bb4071ad-6c66-40ae-878d-8f8c4e4cd2af",
+      "title": "Snippet #00039: Markdown Command Example",
+      "body": "// Snippet #00039: Markdown Command Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 39",
+      "description": "Deterministic technical snippet fixture #39 illustrating command design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "command",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T19:45:00.000+00:00",
+      "updated_at": "2026-01-01T19:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "parsing",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "688b5947-47d7-4811-b2c4-17831a4c7cc6",
+      "title": "Snippet #00040: Go Code Example",
+      "body": "// Snippet #00040: Go Code Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 40",
+      "description": "Deterministic technical snippet fixture #40 illustrating code design for Go.",
+      "language": "Go",
+      "snippet_type": "code",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T20:00:00.000+00:00",
+      "updated_at": "2026-01-01T20:05:00.000+00:00",
+      "source_url": "https://example.com/docs/go/item-40",
+      "tags": [
+        "networking",
+        "database",
+        "performance"
+      ]
+    },
+    {
+      "id": "a108a62a-841b-4b8f-819a-9db6be829b30",
+      "title": "Snippet #00041: Python Config Example",
+      "body": "// Snippet #00041: Python Config Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 41",
+      "description": "Deterministic technical snippet fixture #41 illustrating config design for Python.",
+      "language": "Python",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T20:15:00.000+00:00",
+      "updated_at": "2026-01-01T20:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "security"
+      ]
+    },
+    {
+      "id": "84176c88-834e-483c-bf5b-f2c7370fbb90",
+      "title": "Snippet #00042: Go Note Example",
+      "body": "// Snippet #00042: Go Note Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 42",
+      "description": "Deterministic technical snippet fixture #42 illustrating note design for Go.",
+      "language": "Go",
+      "snippet_type": "note",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T20:30:00.000+00:00",
+      "updated_at": "2026-01-01T20:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "debugging"
+      ]
+    },
+    {
+      "id": "3bf9d02c-a9ce-4f8a-890f-556d860e452b",
+      "title": "Snippet #00043: Go Pseudocode Example",
+      "body": "// Snippet #00043: Go Pseudocode Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 43",
+      "description": "Deterministic technical snippet fixture #43 illustrating pseudocode design for Go.",
+      "language": "Go",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T20:45:00.000+00:00",
+      "updated_at": "2026-01-01T20:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "id": "5cc1da25-9178-4386-b8d6-9f60ecc2a8d3",
+      "title": "Snippet #00044: C++ Note Example",
+      "body": "// Snippet #00044: C++ Note Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 44",
+      "description": "Deterministic technical snippet fixture #44 illustrating note design for C++.",
+      "language": "C++",
+      "snippet_type": "note",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T21:00:00.000+00:00",
+      "updated_at": "2026-01-01T21:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "security",
+        "ui"
+      ]
+    },
+    {
+      "id": "848d3ac0-3cde-4f3f-8b23-f972497aa2af",
+      "title": "Snippet #00045: SQL Code Example",
+      "body": "// Snippet #00045: SQL Code Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 45",
+      "description": "Deterministic technical snippet fixture #45 illustrating code design for SQL.",
+      "language": "SQL",
+      "snippet_type": "code",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T21:15:00.000+00:00",
+      "updated_at": "2026-01-01T21:20:00.000+00:00",
+      "source_url": "https://example.com/docs/sql/item-45",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "91f8adf1-6417-4728-9ae6-3463aecc76c8",
+      "title": "Snippet #00046: Python Command Example",
+      "body": "// Snippet #00046: Python Command Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 46",
+      "description": "Deterministic technical snippet fixture #46 illustrating command design for Python.",
+      "language": "Python",
+      "snippet_type": "command",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": true,
+      "created_at": "2026-01-01T21:30:00.000+00:00",
+      "updated_at": "2026-01-01T21:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "parsing",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "85ee17a0-9821-404b-9287-ef7bf2c2e962",
+      "title": "Snippet #00047: Shell Pseudocode Example",
+      "body": "// Snippet #00047: Shell Pseudocode Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 47",
+      "description": "Deterministic technical snippet fixture #47 illustrating pseudocode design for Shell.",
+      "language": "Shell",
+      "snippet_type": "pseudocode",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T21:45:00.000+00:00",
+      "updated_at": "2026-01-01T21:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "ui",
+        "file-io",
+        "utilities"
+      ]
+    },
+    {
+      "id": "513d2dbe-8dff-411e-8f4b-a26e824f8ccf",
+      "title": "Snippet #00048: Python Pseudocode Example",
+      "body": "// Snippet #00048: Python Pseudocode Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 48",
+      "description": "Deterministic technical snippet fixture #48 illustrating pseudocode design for Python.",
+      "language": "Python",
+      "snippet_type": "pseudocode",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T22:00:00.000+00:00",
+      "updated_at": "2026-01-01T22:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "299ff905-4960-4223-a158-57fdd8e1dc54",
+      "title": "Snippet #00049: Markdown Sql Example",
+      "body": "// Snippet #00049: Markdown Sql Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 49",
+      "description": "Deterministic technical snippet fixture #49 illustrating sql design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "sql",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-01T22:15:00.000+00:00",
+      "updated_at": "2026-01-01T22:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "networking",
+        "parsing",
+        "file-io"
+      ]
+    },
+    {
+      "id": "67d45e29-d8e9-4a8e-893e-760552c48736",
+      "title": "Snippet #00050: C++ Note Example",
+      "body": "// Snippet #00050: C++ Note Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 50",
+      "description": "Deterministic technical snippet fixture #50 illustrating note design for C++.",
+      "language": "C++",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T22:30:00.000+00:00",
+      "updated_at": "2026-01-01T22:35:00.000+00:00",
+      "source_url": "https://example.com/docs/c++/item-50",
+      "tags": [
+        "security",
+        "performance",
+        "networking",
+        "utilities"
+      ]
+    },
+    {
+      "id": "8b91744b-72ef-46c7-aaf0-e70115f4c57e",
+      "title": "Snippet #00051: JavaScript Pseudocode Example",
+      "body": "// Snippet #00051: JavaScript Pseudocode Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 51",
+      "description": "Deterministic technical snippet fixture #51 illustrating pseudocode design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "pseudocode",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T22:45:00.000+00:00",
+      "updated_at": "2026-01-01T22:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "networking",
+        "math"
+      ]
+    },
+    {
+      "id": "ab482199-fdb9-44cd-9dcb-7c2cf6857525",
+      "title": "Snippet #00052: C++ Sql Example",
+      "body": "// Snippet #00052: C++ Sql Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 52",
+      "description": "Deterministic technical snippet fixture #52 illustrating sql design for C++.",
+      "language": "C++",
+      "snippet_type": "sql",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T23:00:00.000+00:00",
+      "updated_at": "2026-01-01T23:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency",
+        "math",
+        "networking",
+        "security"
+      ]
+    },
+    {
+      "id": "10182a07-bd9a-47c6-8386-a124a9f13913",
+      "title": "Snippet #00053: Go Command Example",
+      "body": "// Snippet #00053: Go Command Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 53",
+      "description": "Deterministic technical snippet fixture #53 illustrating command design for Go.",
+      "language": "Go",
+      "snippet_type": "command",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T23:15:00.000+00:00",
+      "updated_at": "2026-01-01T23:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "math",
+        "async"
+      ]
+    },
+    {
+      "id": "e4e4e9c1-eebb-48b9-8bd4-073b85ad3cb3",
+      "title": "Snippet #00054: Go Code Example",
+      "body": "// Snippet #00054: Go Code Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 54",
+      "description": "Deterministic technical snippet fixture #54 illustrating code design for Go.",
+      "language": "Go",
+      "snippet_type": "code",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T23:30:00.000+00:00",
+      "updated_at": "2026-01-01T23:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "concurrency",
+        "ui",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "c47bd06a-e39a-497d-9bba-3f3329d9efa5",
+      "title": "Snippet #00055: JSON Sql Example",
+      "body": "// Snippet #00055: JSON Sql Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 55",
+      "description": "Deterministic technical snippet fixture #55 illustrating sql design for JSON.",
+      "language": "JSON",
+      "snippet_type": "sql",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-01T23:45:00.000+00:00",
+      "updated_at": "2026-01-01T23:50:00.000+00:00",
+      "source_url": "https://example.com/docs/json/item-55",
+      "tags": [
+        "concurrency",
+        "testing",
+        "algorithms",
+        "security"
+      ]
+    },
+    {
+      "id": "2d60d176-3906-4931-9d4f-bb82d8571c46",
+      "title": "Snippet #00056: SQL Pseudocode Example",
+      "body": "// Snippet #00056: SQL Pseudocode Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 56",
+      "description": "Deterministic technical snippet fixture #56 illustrating pseudocode design for SQL.",
+      "language": "SQL",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T00:00:00.000+00:00",
+      "updated_at": "2026-01-02T00:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "patterns"
+      ]
+    },
+    {
+      "id": "1dd78eda-117d-4cf1-8ccc-55932cb24efa",
+      "title": "Snippet #00057: Rust Code Example",
+      "body": "// Snippet #00057: Rust Code Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 57",
+      "description": "Deterministic technical snippet fixture #57 illustrating code design for Rust.",
+      "language": "Rust",
+      "snippet_type": "code",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T00:15:00.000+00:00",
+      "updated_at": "2026-01-02T00:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "debugging",
+        "concurrency",
+        "parsing"
+      ]
+    },
+    {
+      "id": "a8b67d74-ca72-42ac-8d98-8c78a05eef04",
+      "title": "Snippet #00058: JavaScript Code Example",
+      "body": "// Snippet #00058: JavaScript Code Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 58",
+      "description": "Deterministic technical snippet fixture #58 illustrating code design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "code",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T00:30:00.000+00:00",
+      "updated_at": "2026-01-02T00:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "754ebde8-5ef7-4cf4-829f-1dd2701980c2",
+      "title": "Snippet #00059: C++ Sql Example",
+      "body": "// Snippet #00059: C++ Sql Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 59",
+      "description": "Deterministic technical snippet fixture #59 illustrating sql design for C++.",
+      "language": "C++",
+      "snippet_type": "sql",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T00:45:00.000+00:00",
+      "updated_at": "2026-01-02T00:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "security",
+        "debugging",
+        "file-io",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "ab5924aa-9c83-4d1f-a9a2-a72763b03d3f",
+      "title": "Snippet #00060: Python Code Example",
+      "body": "// Snippet #00060: Python Code Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 60",
+      "description": "Deterministic technical snippet fixture #60 illustrating code design for Python.",
+      "language": "Python",
+      "snippet_type": "code",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T01:00:00.000+00:00",
+      "updated_at": "2026-01-02T01:05:00.000+00:00",
+      "source_url": "https://example.com/docs/python/item-60",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "982384ee-5341-486c-b0a3-149e3b71ebc5",
+      "title": "Snippet #00061: Rust Pseudocode Example",
+      "body": "// Snippet #00061: Rust Pseudocode Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 61",
+      "description": "Deterministic technical snippet fixture #61 illustrating pseudocode design for Rust.",
+      "language": "Rust",
+      "snippet_type": "pseudocode",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T01:15:00.000+00:00",
+      "updated_at": "2026-01-02T01:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "parsing",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "7f00eec7-485a-4c2e-ab82-10412e148f2a",
+      "title": "Snippet #00062: SQL Command Example",
+      "body": "// Snippet #00062: SQL Command Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 62",
+      "description": "Deterministic technical snippet fixture #62 illustrating command design for SQL.",
+      "language": "SQL",
+      "snippet_type": "command",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T01:30:00.000+00:00",
+      "updated_at": "2026-01-02T01:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns",
+        "security",
+        "debugging",
+        "async"
+      ]
+    },
+    {
+      "id": "e8accbfc-e69f-4ef9-8d1e-14b85149c0b6",
+      "title": "Snippet #00063: Shell Config Example",
+      "body": "// Snippet #00063: Shell Config Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 63",
+      "description": "Deterministic technical snippet fixture #63 illustrating config design for Shell.",
+      "language": "Shell",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T01:45:00.000+00:00",
+      "updated_at": "2026-01-02T01:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "utilities",
+        "patterns",
+        "testing",
+        "networking"
+      ]
+    },
+    {
+      "id": "2de022ce-f13a-49af-9f88-fb3201ddc3d8",
+      "title": "Snippet #00064: Python Config Example",
+      "body": "// Snippet #00064: Python Config Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 64",
+      "description": "Deterministic technical snippet fixture #64 illustrating config design for Python.",
+      "language": "Python",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T02:00:00.000+00:00",
+      "updated_at": "2026-01-02T02:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "id": "d6d7c1e0-8cba-4a76-8677-3b55106c02d6",
+      "title": "Snippet #00065: Markdown Sql Example",
+      "body": "// Snippet #00065: Markdown Sql Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 65",
+      "description": "Deterministic technical snippet fixture #65 illustrating sql design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "sql",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T02:15:00.000+00:00",
+      "updated_at": "2026-01-02T02:20:00.000+00:00",
+      "source_url": "https://example.com/docs/markdown/item-65",
+      "tags": [
+        "utilities"
+      ]
+    },
+    {
+      "id": "016b21e2-29f5-4010-9006-f7bc3f2cc48b",
+      "title": "Snippet #00066: Markdown Sql Example",
+      "body": "// Snippet #00066: Markdown Sql Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 66",
+      "description": "Deterministic technical snippet fixture #66 illustrating sql design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "sql",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T02:30:00.000+00:00",
+      "updated_at": "2026-01-02T02:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms",
+        "async",
+        "patterns"
+      ]
+    },
+    {
+      "id": "cadd8c13-3a5c-402a-97ce-4fbb9f8339c8",
+      "title": "Snippet #00067: Go Sql Example",
+      "body": "// Snippet #00067: Go Sql Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 67",
+      "description": "Deterministic technical snippet fixture #67 illustrating sql design for Go.",
+      "language": "Go",
+      "snippet_type": "sql",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T02:45:00.000+00:00",
+      "updated_at": "2026-01-02T02:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "id": "03bf4bdc-6a68-496e-b91d-58ff8c91db3f",
+      "title": "Snippet #00068: Shell Command Example",
+      "body": "// Snippet #00068: Shell Command Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 68",
+      "description": "Deterministic technical snippet fixture #68 illustrating command design for Shell.",
+      "language": "Shell",
+      "snippet_type": "command",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T03:00:00.000+00:00",
+      "updated_at": "2026-01-02T03:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "debugging"
+      ]
+    },
+    {
+      "id": "035ada07-5cb7-4243-b71d-cfe4be947673",
+      "title": "Snippet #00069: Python Sql Example",
+      "body": "// Snippet #00069: Python Sql Example\n// Language: Python\n\ndef process_data(items):\n    return [x * 2 for x in items if x % 2 == 0]\n\n// Iteration key: 69",
+      "description": "Deterministic technical snippet fixture #69 illustrating sql design for Python.",
+      "language": "Python",
+      "snippet_type": "sql",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": true,
+      "created_at": "2026-01-02T03:15:00.000+00:00",
+      "updated_at": "2026-01-02T03:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "file-io",
+        "database"
+      ]
+    },
+    {
+      "id": "9c43ed6b-f5a2-4ddf-bbbb-6eb56a7af4bc",
+      "title": "Snippet #00070: Markdown Config Example",
+      "body": "// Snippet #00070: Markdown Config Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 70",
+      "description": "Deterministic technical snippet fixture #70 illustrating config design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T03:30:00.000+00:00",
+      "updated_at": "2026-01-02T03:35:00.000+00:00",
+      "source_url": "https://example.com/docs/markdown/item-70",
+      "tags": [
+        "algorithms",
+        "patterns",
+        "async"
+      ]
+    },
+    {
+      "id": "0fb2bf9a-e9c5-4049-81b3-c09e9b6b7ad7",
+      "title": "Snippet #00071: TypeScript Pseudocode Example",
+      "body": "// Snippet #00071: TypeScript Pseudocode Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 71",
+      "description": "Deterministic technical snippet fixture #71 illustrating pseudocode design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "pseudocode",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T03:45:00.000+00:00",
+      "updated_at": "2026-01-02T03:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency",
+        "patterns"
+      ]
+    },
+    {
+      "id": "aaadc594-5242-41b6-94c0-23db28558159",
+      "title": "Snippet #00072: Markdown Config Example",
+      "body": "// Snippet #00072: Markdown Config Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 72",
+      "description": "Deterministic technical snippet fixture #72 illustrating config design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "config",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T04:00:00.000+00:00",
+      "updated_at": "2026-01-02T04:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns",
+        "ui",
+        "parsing",
+        "performance"
+      ]
+    },
+    {
+      "id": "f2d1ca7c-7590-448e-b104-ed790274c0ed",
+      "title": "Snippet #00073: TypeScript Sql Example",
+      "body": "// Snippet #00073: TypeScript Sql Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 73",
+      "description": "Deterministic technical snippet fixture #73 illustrating sql design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "sql",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T04:15:00.000+00:00",
+      "updated_at": "2026-01-02T04:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "debugging"
+      ]
+    },
+    {
+      "id": "e4ea5c49-42a9-4f67-93e0-1c5697f95d72",
+      "title": "Snippet #00074: Rust Note Example",
+      "body": "// Snippet #00074: Rust Note Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 74",
+      "description": "Deterministic technical snippet fixture #74 illustrating note design for Rust.",
+      "language": "Rust",
+      "snippet_type": "note",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T04:30:00.000+00:00",
+      "updated_at": "2026-01-02T04:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "database",
+        "parsing",
+        "async"
+      ]
+    },
+    {
+      "id": "3f0143a4-a0a4-4ec0-a978-2f046cde26c3",
+      "title": "Snippet #00075: Markdown Sql Example",
+      "body": "// Snippet #00075: Markdown Sql Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 75",
+      "description": "Deterministic technical snippet fixture #75 illustrating sql design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "sql",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T04:45:00.000+00:00",
+      "updated_at": "2026-01-02T04:50:00.000+00:00",
+      "source_url": "https://example.com/docs/markdown/item-75",
+      "tags": [
+        "testing",
+        "debugging",
+        "math",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "24cdfcc0-84aa-4184-8802-a2b3bdb2d460",
+      "title": "Snippet #00076: Go Command Example",
+      "body": "// Snippet #00076: Go Command Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 76",
+      "description": "Deterministic technical snippet fixture #76 illustrating command design for Go.",
+      "language": "Go",
+      "snippet_type": "command",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T05:00:00.000+00:00",
+      "updated_at": "2026-01-02T05:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "async",
+        "testing"
+      ]
+    },
+    {
+      "id": "01ecb79d-64e4-4824-bc2e-710363ff0b1f",
+      "title": "Snippet #00077: TypeScript Sql Example",
+      "body": "// Snippet #00077: TypeScript Sql Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 77",
+      "description": "Deterministic technical snippet fixture #77 illustrating sql design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "sql",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T05:15:00.000+00:00",
+      "updated_at": "2026-01-02T05:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "c101e4fb-f51f-4611-8e1f-0a6928b3ba97",
+      "title": "Snippet #00078: C++ Note Example",
+      "body": "// Snippet #00078: C++ Note Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 78",
+      "description": "Deterministic technical snippet fixture #78 illustrating note design for C++.",
+      "language": "C++",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T05:30:00.000+00:00",
+      "updated_at": "2026-01-02T05:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "performance",
+        "parsing"
+      ]
+    },
+    {
+      "id": "beb0ebc3-62db-4eba-a03b-bb058f242feb",
+      "title": "Snippet #00079: SQL Note Example",
+      "body": "// Snippet #00079: SQL Note Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 79",
+      "description": "Deterministic technical snippet fixture #79 illustrating note design for SQL.",
+      "language": "SQL",
+      "snippet_type": "note",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T05:45:00.000+00:00",
+      "updated_at": "2026-01-02T05:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "177cfdee-eceb-41b9-a047-a4da7c5afa20",
+      "title": "Snippet #00080: Shell Code Example",
+      "body": "// Snippet #00080: Shell Code Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 80",
+      "description": "Deterministic technical snippet fixture #80 illustrating code design for Shell.",
+      "language": "Shell",
+      "snippet_type": "code",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T06:00:00.000+00:00",
+      "updated_at": "2026-01-02T06:05:00.000+00:00",
+      "source_url": "https://example.com/docs/shell/item-80",
+      "tags": [
+        "async",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "839fe4e1-8fd7-47cd-a3f2-809411eb4edb",
+      "title": "Snippet #00081: JavaScript Code Example",
+      "body": "// Snippet #00081: JavaScript Code Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 81",
+      "description": "Deterministic technical snippet fixture #81 illustrating code design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "code",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T06:15:00.000+00:00",
+      "updated_at": "2026-01-02T06:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "algorithms"
+      ]
+    },
+    {
+      "id": "2621087d-2fd9-4276-8f62-a2a2df0957c0",
+      "title": "Snippet #00082: SQL Pseudocode Example",
+      "body": "// Snippet #00082: SQL Pseudocode Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 82",
+      "description": "Deterministic technical snippet fixture #82 illustrating pseudocode design for SQL.",
+      "language": "SQL",
+      "snippet_type": "pseudocode",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T06:30:00.000+00:00",
+      "updated_at": "2026-01-02T06:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "parsing",
+        "file-io",
+        "concurrency",
+        "performance"
+      ]
+    },
+    {
+      "id": "16d6836b-d333-4633-aecc-5562f281ef68",
+      "title": "Snippet #00083: SQL Note Example",
+      "body": "// Snippet #00083: SQL Note Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 83",
+      "description": "Deterministic technical snippet fixture #83 illustrating note design for SQL.",
+      "language": "SQL",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T06:45:00.000+00:00",
+      "updated_at": "2026-01-02T06:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency",
+        "async",
+        "ui"
+      ]
+    },
+    {
+      "id": "959d04c9-99b8-4bd6-9884-a1a475cc9c53",
+      "title": "Snippet #00084: C++ Config Example",
+      "body": "// Snippet #00084: C++ Config Example\n// Language: C++\n\nint main(int argc, char** argv) {\n    std::cout << \"Hello from C++!\" << std::endl;\n    return 0;\n}\n\n// Iteration key: 84",
+      "description": "Deterministic technical snippet fixture #84 illustrating config design for C++.",
+      "language": "C++",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T07:00:00.000+00:00",
+      "updated_at": "2026-01-02T07:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "ui",
+        "algorithms",
+        "database"
+      ]
+    },
+    {
+      "id": "c945163f-e19a-4388-abb0-1b6580a7e95b",
+      "title": "Snippet #00085: TypeScript Pseudocode Example",
+      "body": "// Snippet #00085: TypeScript Pseudocode Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 85",
+      "description": "Deterministic technical snippet fixture #85 illustrating pseudocode design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T07:15:00.000+00:00",
+      "updated_at": "2026-01-02T07:20:00.000+00:00",
+      "source_url": "https://example.com/docs/typescript/item-85",
+      "tags": [
+        "performance",
+        "file-io"
+      ]
+    },
+    {
+      "id": "c1fbb79d-81ca-4360-9098-4bac12ccd981",
+      "title": "Snippet #00086: TypeScript Code Example",
+      "body": "// Snippet #00086: TypeScript Code Example\n// Language: TypeScript\n\ninterface UserConfig {\n    id: string;\n    active: boolean;\n    timeoutMs: number;\n}\n\n// Iteration key: 86",
+      "description": "Deterministic technical snippet fixture #86 illustrating code design for TypeScript.",
+      "language": "TypeScript",
+      "snippet_type": "code",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T07:30:00.000+00:00",
+      "updated_at": "2026-01-02T07:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "performance",
+        "parsing"
+      ]
+    },
+    {
+      "id": "7a16bc63-6766-4432-9c53-b4d1f11b7704",
+      "title": "Snippet #00087: Rust Config Example",
+      "body": "// Snippet #00087: Rust Config Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 87",
+      "description": "Deterministic technical snippet fixture #87 illustrating config design for Rust.",
+      "language": "Rust",
+      "snippet_type": "config",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T07:45:00.000+00:00",
+      "updated_at": "2026-01-02T07:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "patterns",
+        "performance",
+        "parsing"
+      ]
+    },
+    {
+      "id": "36046579-4b29-4778-b1f1-350b8d3a029c",
+      "title": "Snippet #00088: Rust Note Example",
+      "body": "// Snippet #00088: Rust Note Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 88",
+      "description": "Deterministic technical snippet fixture #88 illustrating note design for Rust.",
+      "language": "Rust",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T08:00:00.000+00:00",
+      "updated_at": "2026-01-02T08:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "database",
+        "parsing"
+      ]
+    },
+    {
+      "id": "56b53577-630f-4136-b221-76c3303f6896",
+      "title": "Snippet #00089: Rust Config Example",
+      "body": "// Snippet #00089: Rust Config Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 89",
+      "description": "Deterministic technical snippet fixture #89 illustrating config design for Rust.",
+      "language": "Rust",
+      "snippet_type": "config",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T08:15:00.000+00:00",
+      "updated_at": "2026-01-02T08:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "performance",
+        "security",
+        "parsing"
+      ]
+    },
+    {
+      "id": "33d51468-5eb8-493e-9a22-7a5e2655f4cf",
+      "title": "Snippet #00090: Markdown Pseudocode Example",
+      "body": "// Snippet #00090: Markdown Pseudocode Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 90",
+      "description": "Deterministic technical snippet fixture #90 illustrating pseudocode design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "pseudocode",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T08:30:00.000+00:00",
+      "updated_at": "2026-01-02T08:35:00.000+00:00",
+      "source_url": "https://example.com/docs/markdown/item-90",
+      "tags": [
+        "testing",
+        "security",
+        "math",
+        "performance"
+      ]
+    },
+    {
+      "id": "7ba48b94-7a3c-4dea-b396-eac71a44a2d9",
+      "title": "Snippet #00091: Shell Code Example",
+      "body": "// Snippet #00091: Shell Code Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 91",
+      "description": "Deterministic technical snippet fixture #91 illustrating code design for Shell.",
+      "language": "Shell",
+      "snippet_type": "code",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T08:45:00.000+00:00",
+      "updated_at": "2026-01-02T08:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "utilities"
+      ]
+    },
+    {
+      "id": "7d5b80fa-bd7e-4219-8e50-cc87215b680c",
+      "title": "Snippet #00092: Shell Note Example",
+      "body": "// Snippet #00092: Shell Note Example\n// Language: Shell\n\n#!/usr/bin/env bash\nset -euo pipefail\necho \"Deployment finished at $(date)\"\n\n// Iteration key: 92",
+      "description": "Deterministic technical snippet fixture #92 illustrating note design for Shell.",
+      "language": "Shell",
+      "snippet_type": "note",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": true,
+      "created_at": "2026-01-02T09:00:00.000+00:00",
+      "updated_at": "2026-01-02T09:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "6d8d23b6-fb99-4554-944a-b6dcd7f256da",
+      "title": "Snippet #00093: Rust Note Example",
+      "body": "// Snippet #00093: Rust Note Example\n// Language: Rust\n\nfn compute_hash(data: &[u8]) -> u64 {\n    let mut sum: u64 = 0;\n    for &b in data { sum = sum.wrapping_add(b as u64); }\n    sum\n}\n\n// Iteration key: 93",
+      "description": "Deterministic technical snippet fixture #93 illustrating note design for Rust.",
+      "language": "Rust",
+      "snippet_type": "note",
+      "collection_id": "68fb6aa5-de5e-4a58-a521-1126b1d1a7b4",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T09:15:00.000+00:00",
+      "updated_at": "2026-01-02T09:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "utilities",
+        "database",
+        "networking",
+        "ui"
+      ]
+    },
+    {
+      "id": "d6e36a23-c80b-497a-8a33-e6aa26e78e5c",
+      "title": "Snippet #00094: Markdown Pseudocode Example",
+      "body": "// Snippet #00094: Markdown Pseudocode Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 94",
+      "description": "Deterministic technical snippet fixture #94 illustrating pseudocode design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "pseudocode",
+      "collection_id": "ec00eb67-1ecc-4808-b5a9-a7efe62cc14c",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T09:30:00.000+00:00",
+      "updated_at": "2026-01-02T09:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "utilities",
+        "security",
+        "patterns"
+      ]
+    },
+    {
+      "id": "e578b910-73d6-4682-a80c-5fbc080d6681",
+      "title": "Snippet #00095: JSON Sql Example",
+      "body": "// Snippet #00095: JSON Sql Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 95",
+      "description": "Deterministic technical snippet fixture #95 illustrating sql design for JSON.",
+      "language": "JSON",
+      "snippet_type": "sql",
+      "collection_id": "30657836-e006-4683-8b82-01592a6aeb19",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T09:45:00.000+00:00",
+      "updated_at": "2026-01-02T09:50:00.000+00:00",
+      "source_url": "https://example.com/docs/json/item-95",
+      "tags": [
+        "async",
+        "testing",
+        "parsing"
+      ]
+    },
+    {
+      "id": "819e73ac-2b48-4585-95c5-0e3aab4cdb29",
+      "title": "Snippet #00096: JavaScript Code Example",
+      "body": "// Snippet #00096: JavaScript Code Example\n// Language: JavaScript\n\nasync function fetchUser(id) {\n    const res = await fetch(`/api/users/${id}`);\n    return res.json();\n}\n\n// Iteration key: 96",
+      "description": "Deterministic technical snippet fixture #96 illustrating code design for JavaScript.",
+      "language": "JavaScript",
+      "snippet_type": "code",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T10:00:00.000+00:00",
+      "updated_at": "2026-01-02T10:05:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency",
+        "async"
+      ]
+    },
+    {
+      "id": "f2a7a2ff-2d82-489f-bd61-8941236bc1e0",
+      "title": "Snippet #00097: Go Pseudocode Example",
+      "body": "// Snippet #00097: Go Pseudocode Example\n// Language: Go\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Worker pool started\")\n}\n\n// Iteration key: 97",
+      "description": "Deterministic technical snippet fixture #97 illustrating pseudocode design for Go.",
+      "language": "Go",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T10:15:00.000+00:00",
+      "updated_at": "2026-01-02T10:20:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "testing",
+        "math",
+        "utilities",
+        "file-io"
+      ]
+    },
+    {
+      "id": "cb6be9e7-e48e-4034-9f2d-034f39dfa143",
+      "title": "Snippet #00098: SQL Pseudocode Example",
+      "body": "// Snippet #00098: SQL Pseudocode Example\n// Language: SQL\n\nSELECT u.id, u.username, COUNT(s.id) as snippet_count\nFROM users u\nLEFT JOIN snippets s ON u.id = s.user_id\nGROUP BY u.id;\n\n// Iteration key: 98",
+      "description": "Deterministic technical snippet fixture #98 illustrating pseudocode design for SQL.",
+      "language": "SQL",
+      "snippet_type": "pseudocode",
+      "collection_id": "bc0967be-90bf-496a-8eea-9380919df9cb",
+      "favorite": true,
+      "pinned": false,
+      "created_at": "2026-01-02T10:30:00.000+00:00",
+      "updated_at": "2026-01-02T10:35:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "id": "8b110bd8-d3ec-4ad1-8a5f-ddd2c8eea74a",
+      "title": "Snippet #00099: Markdown Pseudocode Example",
+      "body": "// Snippet #00099: Markdown Pseudocode Example\n// Language: Markdown\n\n# Project Documentation\n\n## Overview\nThis is a sample technical documentation note with markdown formatting.\n\n// Iteration key: 99",
+      "description": "Deterministic technical snippet fixture #99 illustrating pseudocode design for Markdown.",
+      "language": "Markdown",
+      "snippet_type": "pseudocode",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T10:45:00.000+00:00",
+      "updated_at": "2026-01-02T10:50:00.000+00:00",
+      "source_url": "",
+      "tags": [
+        "networking",
+        "performance",
+        "ui"
+      ]
+    },
+    {
+      "id": "1d2bed02-4a5f-4b03-a5aa-cd3efbfef349",
+      "title": "Snippet #00100: JSON Config Example",
+      "body": "// Snippet #00100: JSON Config Example\n// Language: JSON\n\n{\n  \"status\": \"healthy\",\n  \"uptime\": 86400,\n  \"version\": \"1.0.0\"\n}\n\n// Iteration key: 100",
+      "description": "Deterministic technical snippet fixture #100 illustrating config design for JSON.",
+      "language": "JSON",
+      "snippet_type": "config",
+      "collection_id": "47c9aabc-2a7c-48d5-8a36-92cdcc00a302",
+      "favorite": false,
+      "pinned": false,
+      "created_at": "2026-01-02T11:00:00.000+00:00",
+      "updated_at": "2026-01-02T11:05:00.000+00:00",
+      "source_url": "https://example.com/docs/json/item-100",
+      "tags": [
+        "utilities",
+        "async",
+        "math"
+      ]
+    }
+  ]
+}
