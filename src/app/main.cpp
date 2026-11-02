@@ -1,5 +1,6 @@
 #include <QApplication>
 #include <QMessageBox>
+#include <QIcon>
 #include <iostream>
 #include "../database/Database.h"
 #include "../ui/MainWindow.h"
@@ -10,6 +11,7 @@ int main(int argc, char* argv[]) {
     app.setApplicationVersion(QStringLiteral("0.1.0"));
     app.setOrganizationName(QStringLiteral("CodeShelf"));
     app.setOrganizationDomain(QStringLiteral("codeshelf.local"));
+    app.setWindowIcon(QIcon(QStringLiteral(":/icons/codeshelf.png")));
 
     // Open default database
     auto& db = CodeShelf::Database::instance();

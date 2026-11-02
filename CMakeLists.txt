@@ -159,8 +159,13 @@ target_link_libraries(CodeShelfCore PUBLIC
 )
 
 # Main Application Executable
+set(CODESHELF_APP_SOURCES src/app/main.cpp)
+if(WIN32)
+    list(APPEND CODESHELF_APP_SOURCES resources/codeshelf.rc)
+endif()
+
 add_executable(codeshelf
-    src/app/main.cpp
+    ${CODESHELF_APP_SOURCES}
 )
 target_link_libraries(codeshelf PRIVATE CodeShelfCore)
 

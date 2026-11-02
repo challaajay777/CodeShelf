@@ -43,6 +43,7 @@ MainWindow::MainWindow(QWidget* parent)
     , m_backupHandler(m_snippetRepo, m_colRepo, m_tagRepo, m_tmplRepo)
 {
     setWindowTitle(QStringLiteral("CodeShelf"));
+    setWindowIcon(QIcon(QStringLiteral(":/icons/codeshelf.png")));
     resize(1140, 740);
 
     setupUi();
